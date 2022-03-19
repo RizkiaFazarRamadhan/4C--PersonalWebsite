@@ -12,12 +12,12 @@ html, body{
 /* CSS Variables */ 
 
 :root{
-    --primary-color: #671AE4;
-    --primary-color2: #FF5CE5;
+    --primary-color: #FFE53B;
+    --primary-color2: #FF4C24; 
     --title-color: #141313;
     --text-color: #777777;  
     --border-color: #201f1f17;  
-    --gradient-color: linear-gradient(210deg, #FF5CE5 0%, #671AE4 100%);
+    --gradient-color: linear-gradient(210deg, #FF4C24 0%, #FFE53B 100%);
     --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
    
