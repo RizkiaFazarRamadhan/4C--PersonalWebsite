@@ -54,7 +54,7 @@
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .site-main .site-banner .site-title .title-text .daffa {
@@ -63,7 +63,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    
 
+}
+
+.site-main .site-banner .site-title .title-text .skill {
+
+    font-style: italic;
 }
 
 
@@ -78,8 +84,11 @@
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 42px;
-    padding-top: 35%;
+    
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 17%;
+    align-items: left;
 
 }
 
@@ -93,10 +102,14 @@
     font-size: 1.5rem;
 }
 
+.site-main .site-banner .site-title .site-buttons{
+    padding: 21px 2px;
+}
+
 .site-main .site-banner .banner-image > img{
-    padding: 4rem 0;
+    padding: 4rem 0rem 0rem 4rem;
     margin-bottom: 2rem;
-    block-size: 80%;
+    block-size: 100%;
 }
 
 
@@ -106,12 +119,13 @@
 /* Start About Area */ 
 
 .site-main .about-area{
-    padding: 8rem 5rem;
+    padding-top: 30rem;
+    margin-top: 5rem;
 }
 
 .site-main .about-area .about-image > img{
-    block-size: 80%;
-
+    block-size: 100%;
+    padding-top: 20px;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -124,9 +138,10 @@
     padding: 5px 0;
 }
 
-.site-main .about-area .about-title .paragraph .para > a {
+.site-main .about-area .about-title .paragraph .para .diklat {
     font-weight: bold;
     color: black;
+    
 }
 
 body {
@@ -141,7 +156,8 @@ body {
 /* Project Area */ 
 
 .site-main .project-area{
-    padding: 6rem 0 1rem;
+    padding: 3rem 0 1rem;
+    margin-top: 10px;
 }
 
 .site-main .project-area .button-group button{
@@ -223,8 +239,17 @@ footer.footer-area #contact{
     transition: 0,3s;
 }
 
-footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+footer.footer-area .social .foool{
+    font: normal 500 30px/ 30px var(--roboto);
+    margin: 1rem 10rem;
+    padding: 20px;
+}
+
+footer.footer-area .social .foool .siswa{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 footer.footer-area .social a > i{
@@ -235,6 +260,12 @@ footer.footer-area .social a > i{
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
+}
+
+footer.footer-area .social .site-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 
