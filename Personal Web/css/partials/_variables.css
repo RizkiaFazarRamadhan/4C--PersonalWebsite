@@ -24,4 +24,5 @@ html, body{
 
     /* font family variables. */ 
     --roboto: 'Poppins' ;
+    font-family: 'Inter', sans-serif;
 } 
