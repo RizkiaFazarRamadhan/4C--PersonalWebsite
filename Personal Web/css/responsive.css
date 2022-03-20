@@ -80,7 +80,7 @@
     footer.footer-area .social .foool{
         margin:1rem 1rem;
         background: var (--gradient-color);
-        font: normal 500 20px/20px var(--roboto);
+        font: normal 500 20px/25px var(--roboto);
         padding: 20px 0px;
     }
 

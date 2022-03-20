@@ -14,11 +14,11 @@
 /* Buttons */ 
 
 .button{
-    padding: .8rem 2.2rem;
+    padding: .8rem 1.8rem;
     font: normal 500 16px/20px var(--roboto);
     position: relative;
-    border: 3px solid transparent;
-    border-radius: 15px;
+    border: 0px solid transparent;
+    border-radius: 20px;
 }
 
 .button.primary-button{
@@ -42,7 +42,7 @@
     background: var(--gradient-color);
     content: ' ';
     z-index: -1;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .button.secondary-button{
@@ -87,7 +87,7 @@ button:hover
     top: -1px;
     left: 0; right: 0;
     background: #ffffff;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--shadow-color);
     z-index: 999;
     transition: background 1s ease;
 }

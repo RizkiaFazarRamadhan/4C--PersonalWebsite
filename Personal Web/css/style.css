@@ -244,13 +244,16 @@ body {
 
 /* Footer Area */ 
 
-
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
 footer.footer-area #contact{
     transition: 0,3s;
 }
 
 footer.footer-area .social .foool{
-    font: normal 500 30px/ 30px var(--roboto);
+    font: normal 500 30px/ 40px var(--roboto);
     margin: 1rem 10%;
     padding: 20px;
 }
