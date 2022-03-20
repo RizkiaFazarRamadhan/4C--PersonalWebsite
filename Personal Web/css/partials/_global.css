@@ -76,8 +76,8 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 38px/ 40px var(--roboto);
-    letter-spacing: 5px;
+    font: normal bold 42px/40px var(--roboto);
+    letter-spacing: 1px;
 }
 
 
