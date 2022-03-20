@@ -25,7 +25,7 @@
 .header_area .main-menu .nav-item .nav-link{
     font: normal 400 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1rem 24px;
+    padding: 10px 14px;
     color: var(--title-color);
 }
 
@@ -70,6 +70,7 @@
 .site-main .site-banner .site-title .title-text .skill {
 
     font-style: italic;
+    
 }
 
 
@@ -86,9 +87,9 @@
 .site-main .site-banner .site-title h1{
     
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
     padding-top: 17%;
-    align-items: left;
+    line-height: 62px;
 
 }
 
@@ -104,10 +105,11 @@
 
 .site-main .site-banner .site-title .site-buttons{
     padding: 21px 2px;
+    padding-top: 51px;
 }
 
 .site-main .site-banner .banner-image > img{
-    padding: 4rem 0rem 0rem 4rem;
+    padding: 4rem 0rem 0rem 0rem;
     margin-bottom: 2rem;
     block-size: 100%;
 }
@@ -120,7 +122,12 @@
 
 .site-main .about-area{
     padding-top: 30rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+
+.site-main .about-area .kosong{
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .site-main .about-area .about-image > img{
@@ -138,9 +145,15 @@
     padding: 5px 0;
 }
 
+.site-main .about-area .about-title .paragraph .para{
+
+    block-size: 100%;
+}
+
+
 .site-main .about-area .about-title .paragraph .para .diklat {
     font-weight: bold;
-    color: black;
+    color: #242424;
     
 }
 
@@ -156,7 +169,7 @@ body {
 /* Project Area */ 
 
 .site-main .project-area{
-    padding: 3rem 0 1rem;
+    padding: 1rem 0 1rem;
     margin-top: 10px;
 }
 
@@ -241,7 +254,7 @@ footer.footer-area #contact{
 
 footer.footer-area .social .foool{
     font: normal 500 30px/ 30px var(--roboto);
-    margin: 1rem 10rem;
+    margin: 1rem 10%;
     padding: 20px;
 }
 
@@ -267,6 +280,8 @@ footer.footer-area .social .site-title {
     justify-content: center;
     padding: 30px;
 }
+
+
 
 
 /* End Footer */ 

@@ -6,50 +6,88 @@
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand
     {
-        padding: 2%;
+        padding: 0%;
         margin: 0%;
     }
 
     .site-main .site-banner .site-title h1{
-        font-size: 41px;
+        font-size: 38px;
     }
-
-
-    .site-main > .services-area .services{
-        width: 13rem;
-    }
-
 }
 
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
+
+    .site-main .site-banner .site-title h1{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .site-main .site-banner .site-title .site-buttons{
+        padding-top: 32px;
+
+    }
+
+    .site-main .site-banner .banner-image > img{
+        padding-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .site-main .about-area .kosong{
+        margin-top: 1px;
+        padding-bottom: 1px;
+    }
+
+
+    .button{
+        padding: .5rem 1.8rem;
+        font: normal 500 12px/16px var(--roboto);
+    }
+
+    .site-main .about-area .about-title h2{
+        padding-top: 0px;
+
+    }
+
+
+
     .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
-        letter-spacing: 10px;
+        font-size: 38px;
+        letter-spacing: 5px;
     }
 
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
+    .site-main .about-area{
+        padding-top: 10px;
+        margin-top: 10px;
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
+        font: normal 500 14px/40px var(--roboto);
+    }
+
+    .site-main .project-area .button-group button + button{
+        padding-left: 6px;
+        margin-bottom: 15px;
+
     }
 
     .site-main .about-area .about-title p{
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
+    footer.footer-area .social .foool{
+        margin:1rem 1rem;
+        background: var (--gradient-color);
+        font: normal 500 20px/20px var(--roboto);
+        padding: 20px 0px;
     }
+
+    footer.footer-area .social .site-title .bottom-site-button button{
+        font-size: 100px;
+    }
+
 }
 
 
