@@ -244,10 +244,7 @@ body {
 
 /* Footer Area */ 
 
-footer.footer-area{
-    padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
-}
+
 footer.footer-area #contact{
     transition: 0,3s;
 }
